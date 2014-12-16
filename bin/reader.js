@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
-var
-options = require("../lib/cli").options,
-InputReader = require("../lib/inputReader"),
-FileReader = require("../lib/fileReader"),
-HeadingChecker = require("../lib/headingChecker"),
-split = require("split"),
-inputReader;
+var options = require("../lib/cli").options,
+var InputReader = require("../lib/inputReader");
+var FileReader = require("../lib/fileReader");
+var HeadingChecker = require("../lib/headingChecker");
+var split = require("split");
+var inputReader;
 
 inputReader = new InputReader( options )
   .pipe( new FileReader( options ) )
