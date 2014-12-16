@@ -1,6 +1,6 @@
 {
   "name": "ots-heading-parser",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Reads the contents of a file from The Sports Network and checks the <heading> element to figure out what type of file it is.",
   "author": "Clay Simmons <csimmons@onetwosee.com>",
   "preferGlobal": true,
