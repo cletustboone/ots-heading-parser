@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var options = require("../lib/cli").options,
+var options = require("../lib/cli").options;
 var InputReader = require("../lib/inputReader");
 var FileReader = require("../lib/fileReader");
 var HeadingChecker = require("../lib/headingChecker");
